@@ -36,14 +36,14 @@
         </div>
         <div class="col-md gb-content gb-hello">
             <div class="text-center">
-                <img src="/images/Me.jpg" class="rounded-circle img-thumbnail" style="height:350px;">
+                <img src="/js/Me.jpg" class="rounded-circle img-thumbnail" style="height:350px;">
             </div>
         </div>
     </div>
 
     <div class="row gb-aboutme">
         <div class="col-md gb-content">
-            <img src="/images/Me2.jpg" class="img-thumbnail">
+            <img src="/js/Me2.jpg" class="img-thumbnail">
         </div>
         <div class="text-center col-md gb-content">
             <h1 class="gb-title">About Me</h1>
@@ -200,7 +200,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Konsultasi Online.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/js/Konsultasi Online.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Konsultasi Online</h4>
                             <p>
@@ -213,7 +213,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Registrasi Mandiri.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/js/Registrasi Mandiri.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Registrasi Mandiri</h4>
                             <p>
@@ -226,7 +226,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Pelayanan.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/js/Pelayanan.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Pelayanan</h4>
                             <p>
