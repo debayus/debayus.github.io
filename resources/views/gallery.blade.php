@@ -7,7 +7,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Konsultasi Online.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Konsultasi Online.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Konsultasi Online</h4>
                             <p>
@@ -20,7 +20,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Registrasi Mandiri.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Registrasi Mandiri.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Registrasi Mandiri</h4>
                             <p>
@@ -33,7 +33,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Pelayanan.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Pelayanan.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Pelayanan</h4>
                             <p>
@@ -46,7 +46,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Solazy.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Solazy.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Solazy</h4>
                             <p>
@@ -62,7 +62,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Web Solazy.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Web Solazy.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Web Solazy</h4>
                             <p>
@@ -78,7 +78,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Whatsapp Bot.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Whatsapp Bot.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Whatsapp Bot</h4>
                             <p>
@@ -91,7 +91,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Akreditasi.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Akreditasi.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Akreditasi</h4>
                             <p>
@@ -104,7 +104,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Executive Report.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Executive Report.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Executive Report</h4>
                             <p>
@@ -117,7 +117,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Cek Resep.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Cek Resep.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Cek Resep</h4>
                             <p>
@@ -130,7 +130,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Portal.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Portal.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Portal</h4>
                             <p>
@@ -143,7 +143,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Dugdug Order.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Dugdug Order.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Dugdug Order</h4>
                             <p>
@@ -156,7 +156,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Dugdug Admin.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Dugdug Admin.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Dugdug Admin</h4>
                             <p>
@@ -172,7 +172,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Display Jadwal Operasi.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Display Jadwal Operasi.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Display Jadwal Operasi</h4>
                             <p>
@@ -185,7 +185,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Display Kamar.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Display Kamar.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Display Kamar</h4>
                             <p>
@@ -198,7 +198,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Kasir Mini.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Kasir Mini.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Kasir Mini</h4>
                             <p>
@@ -214,7 +214,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/Inventory.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/Inventory.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">Inventory</h4>
                             <p>
@@ -227,7 +227,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/js/System Antrian.png')"></div>
+                        <div class="gb-projects-image" style="background-image:url('/images/System Antrian.png')"></div>
                         <div class="card-body">
                             <h4 class="text-center">System Antrian</h4>
                             <p>
