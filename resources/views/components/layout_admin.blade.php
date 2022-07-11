@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ $title ?? '@debayus' }} - Gede Bayu</title>
+    <title>{{ $title ?? '@debayus' }} - {{ config('app.name', 'Mahas') }}</title>
 
     <!-- Global stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -59,14 +59,16 @@
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown dropdown-user">
                         <a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
-                            <span>Username</span>
+                            <span>{{ Auth::user()->name }}</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
                             <a href="/account/manage" class="dropdown-item"><i class="icon-cog5"></i> Account settings</a>
-                            <a href="javascript:document.getElementById('formlogout').submit();" class="dropdown-item">
+                            <a href="javascript:document.getElementById('logout-form').submit();" class="dropdown-item">
                                 <i class="icon-switch2"></i> Logout
                             </a>
-                            <form id="formlogout" class="hidden" method="POST" action="/account/logout"></form>
+                            <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" class="d-none">
+                                <?php echo csrf_field(); ?>
+                            </form>
                         </div>
                     </li>
                 </ul>
@@ -120,7 +122,7 @@
             </div>
             <div class="navbar navbar-expand-lg navbar-light">
                 <div class="text-center w-100">
-                    &copy; 2020 - PalapaNet by <a href="https://debayus.mahas.my.id/">Gede Bayu</a>
+                    &copy; 2022 - <a href="{{ url('/') }}">{{ config('app.name', 'Mahas') }}</a>
                 </div>
             </div>
 

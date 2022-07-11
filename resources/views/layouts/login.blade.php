@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ $title ?? '@debayus' }} - Gede Bayu</title>
+    <title>{{ config('app.name', 'Mahas') }}</title>
 
     <!-- Global stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -41,7 +41,7 @@
                 <!-- Login card -->
                 <div class="card mb-0">
                     <div class="card-body">
-                        {{ $slot }}
+                        @yield('content')
                         <span class="form-text text-center text-muted">
                             <a href="https://debayus.mahas.my.id/" target="_blank">Gede Bayu</a>
                         </span>
