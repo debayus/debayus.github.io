@@ -5,7 +5,7 @@
         <div class="col-md gb-content gb-hello">
             <div>Hello I'm</div>
             <h1 class="display-4">Gede Bayu</h1>
-            <p>Sofware Enginner</p>
+            <p class="mb-3">Sofware Enginner</p>
             <address>
                 <a href="mailto:bayusth@gmail.com" target="_blank">
                     <i class="fa fa-envelope-o"></i>
@@ -31,6 +31,9 @@
                 </a>
                 <a href="https://www.linkedin.com/in/debayus/" target="_blank" title="Instagram">
                     <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/debayus/" target="_blank" title="Github">
+                    <i class="fa fa-github  "></i>
                 </a>
             </div>
         </div>
@@ -107,21 +110,21 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label>VB.NET</label>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>Java</label>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-                    </div>
-                </div>
-                <div class="form-group">
                     <label>PHP</label>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Dart</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="70" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>TypeScript</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="65" aria-valuemin="65" aria-valuemax="100">65%</div>
                     </div>
                 </div>
             </div>
@@ -132,25 +135,31 @@
                 <div class="form-group">
                     <label>ASP.Net</label>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Laravel</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Node.Js</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Flutter</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
                     </div>
                 </div>
                 <div class="form-group">
                     <label>React Native</label>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>Node.Js</label>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>Xamarin</label>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                     </div>
                 </div>
             </div>
@@ -183,7 +192,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="text-center">Sanata System</h4>
-                            <h6 class="text-center">2015 - Now</h6>
+                            <h6 class="text-center">2014 - Now</h6>
                             <p>
                                 Sanata System didirikan pada tahun 2008, berbasis di Denpasar Bali dan memfokuskan usaha di bidang pengembangan dan implementasi perangkat lunak (software).
                             </p>
@@ -238,7 +247,7 @@
             </div>
         </div>
         <div class="text-center">
-            <a href="/Home/Gallery">See More</a>
+            <a href="/gallery">See More</a>
         </div>
     </div>
 
@@ -247,13 +256,13 @@
         <div class="row">
             <div class="col-md">
                 <div class="form-group">
-                    <a href="https://goo.gl/maps/y7Hq6tmB4WC3fp2C7" target="_blank">
+                    <a href="https://goo.gl/maps/cB4sE4UZmE7DQPDd7" target="_blank">
                         <div class="card">
                             <div class="card-body">
                                 <i class="fa fa-map-marker fa-4x"></i>
                                 <h4>Adress</h4>
                                 <div class="bg-contactme-content-body">
-                                    Jl. Suli No.93, Dangin Puri Kangin, Kec. Denpasar Utara, Kota Denpasar, Bali 80234
+                                    Bali
                                 </div>
                             </div>
                         </div>

@@ -4,239 +4,33 @@
     <div class="gb-content gb-projects" style="margin-top:100px;">
         <h1 class="text-center gb-title">Projects</h1>
         <div class="row">
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Konsultasi Online.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Konsultasi Online</h4>
-                            <p>
-                                Web Konsultasi dengan cara video call yang dilakukan oleh dokter dan pasien
-                            </p>
+            @foreach ($models as $model)
+                <div class="col-md-6 col-lg-4">
+                    <div class="form-group">
+                        <div class="card">
+                            <div class="gb-projects-image" style="background-image:url('{{ $model['image'] }}')"></div>
+                            <div class="card-body">
+                                <h4 class="text-center">{{ $model['title'] }}</h4>
+                                <p>{{ $model['description'] }}</p>
+                                @if (isset($model['youtube']))
+                                    <a href="{{$model['youtube']}}" target="_blank">Youtube</a>
+                                @endif
+                                @if (isset($model['git']))
+                                    <a href="{{$model['git']}}" target="_blank">Git</a>
+                                @endif
+                            </div>
+                            @if (isset($model['tags']))
+                                <div class="card-footer">
+                                    @foreach($model['tags'] as $tag)
+                                        <span class="badge bg-success">{{ $tag }}</span>
+                                    @endforeach
+                                </div>
+                            @endif
+
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Registrasi Mandiri.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Registrasi Mandiri</h4>
-                            <p>
-                                Aplikasi yang digunakan oleh Pasien  untuk melakukan registrasi secara mandiri
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Pelayanan.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Pelayanan</h4>
-                            <p>
-                                Aplikasi yang digunakan oleh perawat untuk mencatat pelayanan pasien RJ ataupun RI
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Solazy.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Solazy</h4>
-                            <p>
-                                Mobile Aplikasi kasir laundry online yang dapat digunakan di banyak cabang.
-                                <br />
-                                <br />
-                                <a href="https://play.google.com/store/apps/details?id=com.solazykasir" target="_blank">Play Store</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Web Solazy.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Web Solazy</h4>
-                            <p>
-                                Web Aplikasi kasir laundry online yang dapat digunakan di banyak cabang.
-                                <br />
-                                <br />
-                                <a href="http://solazy.sanatasystem.net/" target="_blank">Website</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Whatsapp Bot.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Whatsapp Bot</h4>
-                            <p>
-                                Memproses reservasi dan memberikan informasi sesuai isi pesan wahtsapp pasien secara otomatis.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Akreditasi.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Akreditasi</h4>
-                            <p>
-                                Pencatatan K3RS, PPI Rumah Sakit dan menghasilkan laporan
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Executive Report.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Executive Report</h4>
-                            <p>
-                                Menampilkan laporan BOR, Kunjungan, Omset, Cash Flow, dll. yang diperunjukan untuk eksekutif
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Cek Resep.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Cek Resep</h4>
-                            <p>
-                                Pasien dapat melihat status resep secara mandiri dan menampilkan display untuk status resep - resep yang sudah siap
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Portal.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Portal</h4>
-                            <p>
-                                Aplikasi yang menghubungkan / berbagi data dengan vendor lain, seperti BPJS, PACS, PPI, dan LAB
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Dugdug Order.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Dugdug Order</h4>
-                            <p>
-                                Pemesanan kelapa segar dari Dugdug Fresh Coco oleh member dapat dilakukan secara online di website
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Dugdug Admin.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Dugdug Admin</h4>
-                            <p>
-                                Aplikasi yang digunakan oleh admin Dugdug Fresh Coco untuk mencatat pesanan
-                                <br />
-                                <br />
-                                <a href="https://play.google.com/store/apps/details?id=com.dugdugproduksi" target="_blank">Play Store</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Display Jadwal Operasi.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Display Jadwal Operasi</h4>
-                            <p>
-                                Menampilkan informasi pasien - pasien yang akan melakukan operasi
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Display Kamar.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Display Kamar</h4>
-                            <p>
-                                Menampilkan informasi kertersediaan kamar
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Kasir Mini.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Kasir Mini</h4>
-                            <p>
-                                Mobile aplikasi yang digunakan untuk mencatat transaksi kasir secara offline
-                                <br />
-                                <br />
-                                <a href="https://play.google.com/store/apps/details?id=com.mahas.kasirmini2" target="_blank"></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/Inventory.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">Inventory</h4>
-                            <p>
-                                Mencatat dan mengatur keluar masuk barang di masing-masing gudang atau unit
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <div class="card">
-                        <div class="gb-projects-image" style="background-image:url('/images/System Antrian.png')"></div>
-                        <div class="card-body">
-                            <h4 class="text-center">System Antrian</h4>
-                            <p>
-                                Mengelola antrian pasien rawat jalan rumah sakit, jadwal dokter, registrasi mandiri, sampai display antrian
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </x-layout>

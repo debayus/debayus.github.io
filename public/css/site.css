@@ -75,23 +75,23 @@ a.navbar-brand {
   }
 
   body {
-      background-color: #2d3436;
-      color: #d1e8e2;
+      background-color: #1e272e;
+      color: #e6ebea;
   }
 
   .img-thumbnail {
-      background-color: #116466;
+      background-color: #485460;
       border: none;
       padding: 10px;
       box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .5);
   }
 
   .navbar-dark {
-      background-color: #2d3436;
+      background-color: #1e272e;
   }
 
   .bg-white {
-      background-color: #2d3436;
+      background-color: #1e272e;
   }
 
   .box-shadow {
@@ -99,7 +99,7 @@ a.navbar-brand {
   }
 
   .card {
-      background-color: #116466;
+      background-color: #485460;
       box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .5);
   }
 
@@ -138,10 +138,6 @@ a.navbar-brand {
   .gb-projects-image {
       height: 300px;
       background-size: cover;
-  }
-
-  .gb-projects h4 {
-      margin-bottom: 20px;
   }
 
   .gb-projects p {
@@ -200,4 +196,18 @@ a.navbar-brand {
           -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
       }
+  }
+
+
+  .gb-content a{
+    color : #0fbcf9 !important;
+  }
+
+  .gb-content p{
+    opacity: .5;
+    margin-bottom: 0;
+  }
+
+  .bg-success{
+    background-color: #05c46b!important;
   }
