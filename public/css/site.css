@@ -37,7 +37,8 @@ a.navbar-brand {
   }
 
   .box-shadow {
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    -webkit-box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+            box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
   }
 
   button.accept-policy {
@@ -83,7 +84,8 @@ a.navbar-brand {
       background-color: #485460;
       border: none;
       padding: 10px;
-      box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .5);
+      -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .5);
+              box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .5);
   }
 
   .navbar-dark {
@@ -95,12 +97,14 @@ a.navbar-brand {
   }
 
   .box-shadow {
-      box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .5);
+      -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .5);
+              box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .5);
   }
 
   .card {
       background-color: #485460;
-      box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .5);
+      -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .5);
+              box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .5);
   }
 
   .progress-bar {
@@ -138,6 +142,7 @@ a.navbar-brand {
   .gb-projects-image {
       height: 300px;
       background-size: cover;
+      background-position: center;
   }
 
   .gb-projects p {
@@ -147,9 +152,16 @@ a.navbar-brand {
 
   @media (min-width: 992px) {
       .gb-aboutme p {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          flex-direction: column;
-          justify-content: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
           height: 250px;
       }
   }
@@ -164,22 +176,43 @@ a.navbar-brand {
 
       .bg-contactme-content-body {
           height: 100px;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          flex-direction: column;
-          justify-content: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
       }
 
       .gb-hello {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          flex-direction: column;
-          justify-content: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
           height: 500px;
       }
 
       .gb-projects p {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          flex-direction: column;
-          justify-content: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
           height: 100px;
       }
   }
@@ -210,4 +243,9 @@ a.navbar-brand {
 
   .bg-success{
     background-color: #05c46b!important;
+  }
+
+  .gb-projects-image span{
+    margin-top: calc(150px - (68px / 2));
+    opacity: 0.5;
   }
