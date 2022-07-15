@@ -2,8 +2,8 @@
     return[
         [
             'title' => 'Whatsapp Bot',
-            'image' => '/images/projects/wabot/1.PNG',
-            'imagemin' => '/images/projects/wabot/1.min.PNG',
+            'image' => '/images/projects/wabot/1.png',
+            'imagemin' => '/images/projects/wabot/1.min.png',
             'description' => 'Reservasi dan informasi dapat melalui whatsapp.',
             'youtube' => 'https://youtu.be/T8HeXCcZeW8',
             'tags' => [
@@ -11,14 +11,14 @@
                 'Postgresql'
             ],
             'images' => [
-                '/images/projects/wabot/2.PNG',
-                '/images/projects/wabot/3.PNG',
+                '/images/projects/wabot/2.png',
+                '/images/projects/wabot/3.png',
             ]
         ],
         [
             'title' => 'Mobile Laundry',
-            'image' => '/images/projects/kilo/1.PNG',
-            'imagemin' => '/images/projects/kilo/1.min.PNG',
+            'image' => '/images/projects/kilo/1.png',
+            'imagemin' => '/images/projects/kilo/1.min.png',
             'description' => 'Billing laundry dan laporan yang lengkap',
             'youtube' => 'https://youtu.be/RZBRM68Zb4U',
             'tags' => [
@@ -27,16 +27,16 @@
                 'SQL Server'
             ],
             'images' => [
-                '/images/projects/kilo/2.PNG',
-                '/images/projects/kilo/3.PNG',
-                '/images/projects/kilo/4.PNG',
-                '/images/projects/kilo/5.PNG',
+                '/images/projects/kilo/2.png',
+                '/images/projects/kilo/3.png',
+                '/images/projects/kilo/4.png',
+                '/images/projects/kilo/5.png',
             ]
         ],
         [
             'title' => 'Jacker',
-            'image' => '/images/projects/jacker/1.PNG',
-            'imagemin' => '/images/projects/jacker/1.min.PNG',
+            'image' => '/images/projects/jacker/1.png',
+            'imagemin' => '/images/projects/jacker/1.min.png',
             'description' => 'Membuat aplikasi dengan mudah',
             'youtube' => 'https://youtu.be/TJ6cjvtF-cA',
             'tags' => [
@@ -44,14 +44,14 @@
                 'SQL Server'
             ],
             'images' => [
-                '/images/projects/jacker/2.PNG',
-                '/images/projects/jacker/3.PNG',
+                '/images/projects/jacker/2.png',
+                '/images/projects/jacker/3.png',
             ]
         ],
         [
             'title' => 'Json to Dart',
-            'image' => '/images/projects/jsonToDart/1.PNG',
-            'imagemin' => '/images/projects/jsonToDart/1.min.PNG',
+            'image' => '/images/projects/jsonToDart/1.png',
+            'imagemin' => '/images/projects/jsonToDart/1.min.png',
             'description' => 'Conversi json ke dart dengan standar mahas',
             'youtube' => 'https://youtu.be/xQ6LcpS0QSY',
             'git' => 'https://github.com/debayus/converter',
@@ -63,8 +63,8 @@
         ],
         [
             'title' => 'HR Portal',
-            'image' => '/images/projects/hrportal/1.PNG',
-            'imagemin' => '/images/projects/hrportal/1.min.PNG',
+            'image' => '/images/projects/hrportal/1.png',
+            'imagemin' => '/images/projects/hrportal/1.min.png',
             'description' => 'Kelola jadwal, data pribadi, dan absesi dengan mudah',
             'youtube' => 'https://youtu.be/ridUA3RG57E',
             'tags' => [
@@ -74,10 +74,10 @@
                 'SQL Server'
             ],
             'images' => [
-                '/images/projects/hrportal/2.PNG',
-                '/images/projects/hrportal/3.PNG',
-                '/images/projects/hrportal/4.PNG',
-                '/images/projects/hrportal/5.PNG',
+                '/images/projects/hrportal/2.png',
+                '/images/projects/hrportal/3.png',
+                '/images/projects/hrportal/4.png',
+                '/images/projects/hrportal/5.png',
             ]
         ],
         [
@@ -109,79 +109,79 @@
         ],
         [
             'title' => 'Elektronik Rekam Medis',
-            'image' => '/images/projects/emr/1.PNG',
-            'imagemin' => '/images/projects/emr/1.min.PNG',
+            'image' => '/images/projects/emr/1.png',
+            'imagemin' => '/images/projects/emr/1.min.png',
             'description' => 'Pencatatan Rekam Medis Pasien',
             'tags' => [
                 'ASP.NET Core',
                 'SQL Server'
             ],
             'images' => [
-                '/images/projects/emr/2.PNG',
-                '/images/projects/emr/3.PNG',
-                '/images/projects/emr/4.PNG',
-                '/images/projects/emr/5.PNG',
+                '/images/projects/emr/2.png',
+                '/images/projects/emr/3.png',
+                '/images/projects/emr/4.png',
+                '/images/projects/emr/5.png',
             ]
         ],
         [
             'title' => 'PalapaNet Admin',
-            'image' => '/images/projects/palapa/1.PNG',
-            'imagemin' => '/images/projects/palapa/1.min.PNG',
+            'image' => '/images/projects/palapa/1.png',
+            'imagemin' => '/images/projects/palapa/1.min.png',
             'description' => 'Pencatatan langganan kustomer dan billing',
             'tags' => [
                 'ASP.NET Core',
                 'SQL Server'
             ],
             'images' => [
-                '/images/projects/palapa/2.PNG',
-                '/images/projects/palapa/3.PNG',
-                '/images/projects/palapa/4.PNG',
+                '/images/projects/palapa/2.png',
+                '/images/projects/palapa/3.png',
+                '/images/projects/palapa/4.png',
             ]
         ],
         [
             'title' => 'Reservasi Rikkes',
-            'image' => '/images/projects/rikkes/1.PNG',
-            'imagemin' => '/images/projects/rikkes/1.min.PNG',
+            'image' => '/images/projects/rikkes/1.png',
+            'imagemin' => '/images/projects/rikkes/1.min.png',
             'description' => 'Pencatatan reservasi pemeriksaan kesehatan',
             'tags' => [
                 'ASP.NET Core',
                 'SQL Server'
             ],
             'images' => [
-                '/images/projects/rikkes/2.PNG',
-                '/images/projects/rikkes/3.PNG',
+                '/images/projects/rikkes/2.png',
+                '/images/projects/rikkes/3.png',
             ]
         ],
         [
             'title' => 'Form Survey',
-            'image' => '/images/projects/survey/1.PNG',
-            'imagemin' => '/images/projects/survey/1.min.PNG',
+            'image' => '/images/projects/survey/1.png',
+            'imagemin' => '/images/projects/survey/1.min.png',
             'description' => 'Mengisi Survey dan Kustomisasi form secara dinamis',
             'tags' => [
                 'ASP.NET Core',
                 'SQL Server'
             ],
             'images' => [
-                '/images/projects/survey/2.PNG',
-                '/images/projects/survey/3.PNG',
-                '/images/projects/survey/4.PNG',
-                '/images/projects/survey/5.PNG',
+                '/images/projects/survey/2.png',
+                '/images/projects/survey/3.png',
+                '/images/projects/survey/4.png',
+                '/images/projects/survey/5.png',
             ]
         ],
         [
             'title' => 'Antrian',
-            'image' => '/images/projects/display/1.PNG',
-            'imagemin' => '/images/projects/display/1.min.PNG',
+            'image' => '/images/projects/display/1.png',
+            'imagemin' => '/images/projects/display/1.min.png',
             'description' => 'Display dan pemanggilan antrian',
             'tags' => [
                 'ASP.NET Core',
                 'SQL Server'
             ],
             'images' => [
-                '/images/projects/display/2.PNG',
-                '/images/projects/display/3.PNG',
-                '/images/projects/display/4.PNG',
-                '/images/projects/display/5.PNG',
+                '/images/projects/display/2.png',
+                '/images/projects/display/3.png',
+                '/images/projects/display/4.png',
+                '/images/projects/display/5.png',
             ]
         ],
         [
