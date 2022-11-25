@@ -1001,25 +1001,13 @@
 				<div id="say-hello" class="container-fluid" data-spy-offset="40">
 					<div class="row">
 						<div class="col-lg-6 p-0">
-							<section class="section-no-border bg-color-primary h-100 m-0">
-							<!-- <section class="section section-no-border bg-color-primary h-100 m-0"> -->
+							<section class="section section-no-border bg-color-primary h-100 m-0">
 								<div class="row justify-content-end m-0">
 									<div class="col-half-section col-half-section-right me-3">
 
-										<!-- <h2 class="text-color-light text-uppercase font-weight-extra-bold">Say Hello</h2>
-										<form id="contactForm" class="contact-form custom-form-style form-errors-light" action="php/contact-form.php" method="post">
-											<div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
-												<strong>Success!</strong> Your message has been sent to us.
-											</div>
-											<div class="contact-form-error alert alert-danger d-none mt-4" id="contactError">
-												<strong>Error!</strong> There was an error sending your message.
-												<span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
-											</div>
-
+										<h2 class="text-color-light text-uppercase font-weight-extra-bold">Say Hello</h2>
+										<form id="contactForm" class="custom-form-style form-errors-light" onsubmit="contactFormOnSubmit(event)">
 											<div class="form-content">
-												<div class="form-control-custom form-control-custom-light">
-													<input type="text" class="form-control" name="name" placeholder="Your Name *" data-msg-required="This field is required." id="name" required="" />
-												</div>
 												<div class="form-control-custom form-control-custom-light">
 													<input type="text" class="form-control" name="subject" placeholder="Subject *" data-msg-required="This field is required." id="subject" required="" />
 												</div>
@@ -1028,7 +1016,7 @@
 												</div>
 												<input type="submit" class="btn btn-quaternary text-color-light text-uppercase font-weight-semibold outline-none custom-btn-style-2 custom-border-radius-1" value="Submit" />
 											</div>
-										</form> -->
+										</form>
 
 									</div>
 								</div>
@@ -1118,6 +1106,17 @@
 
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+
+		<script>
+			const contactFormOnSubmit = e => {
+				e.preventDefault();
+				const subject = e.target['subject'].value;
+				const message = e.target['message'].value;
+				if (subject && message){
+					document.location=`mailto:bayusth@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+				}
+			}
+		</script>
 
 	</body>
 </html>
